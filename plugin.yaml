@@ -1,11 +1,11 @@
 name: contextdb
 description: ContextDB epistemic memory provider for Hermes (credibility, sources, narrative retrieval)
-version: 0.1.0
+version: 0.2.0
 author: antiartificial
 entrypoint: __init__.py
 cli: cli.py
 requires:
-  - contextdb >= 0.1.0
+  - contextdb >= 0.3.0
 config:
   namespace: hermes-agent
   mode: agent_memory
